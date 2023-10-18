@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.top{
+    width: 100%;
+    height: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.top h5{
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.top a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(Images/new1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color:rgb(80, 43, 43);
+    height: 25px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo{
+    width: 100px;
+    margin-left: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}    
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 500;
+} 
+.navbar ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li:hover a{
+    text-decoration: underline gold;
+} 
+.btn{
+    color: white;
+    width:120px;
+    padding: 10px 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border:solid 2px gold;
+    cursor: pointer;
+}
+.content{
+    display:inline-block ;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    margin-left: 115px;
+    transform: translateY(-50%);
+    text-align:center;
+    color: white;
+}  
+.content h1{
+    text-align:center;
+    font-size: 70px;
+    margin-top: 80px;
+    margin-left: 20px;
+
+
+}
+.content p{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 100; 
+}
+button{
+    font-size: 15px;
+    font-weight: 600;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 20px ;
+    margin-left: 20px;
+    border-radius: 25px;
+    border: solid 2px gold;
+    background: #009688;
+    color:white;
+}   
+button:hover{
+    background-color: goldenrod;
+    border: solid black;
+    color: black;
+}
+.Intro h1{
+    text-align:center;
+    font-size: 50px;
+    color:rgb(80, 43, 43) ;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.Course-Offer{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-left: 65px;
+    margin-top: 30px;
+   
+}
+.Course1 img{
+    width: 350px;
+    height: 250px;
+    margin-right: 40px;
+}
+.Course2 img{
+    width: 350px;
+    height: 250px;
+    margin-right: 40px;
+}
+.Course3 img{
+    width: 350px;
+    height: 250px;
+    margin-right: 40px;
+}
+.Course-Offer2{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    margin-left:65px;
+    margin-top: 260px;
+}
+
+.Course4 img{
+    width: 350px;
+    height: 250px;
+    margin-right: 40px;
+}
+.Course5 img{
+    width: 350px;
+    height: 250px;
+    margin-right: 40px;
+}
+.Course6 img{
+    width: 350px;
+    height: 250px;
+    margin-right: 40px;
+}
+.footer{
+    background-color: black;
+    margin-top: 300px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+}
+.foot1{
+    width: 250px;
+    height: fit-content;
+    margin-top: 40px;
+}
+.foot1 img{
+    width: 250px;
+    margin-left: 45px;
+}
+.foot2{
+    width: 250px;
+    margin-top: 55px;
+    margin-left: 250px;
+}
+.foot2 h4{
+    color: white;
+}
+.foot2 p a {
+    color:gold;
+    text-decoration: none;
+}
+.foot3{
+    width: 250px;
+    margin-top: 55px;
+    margin-left: 180px;
+    
+}
+.foot3 ul li {
+    list-style: none; 
+}
+.foot3 ul li a {
+    color: gold;
+    text-decoration: none;
+    margin-right: 15px;
+}
